@@ -5,8 +5,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "dev:server": "ts-node-dev --inspect -- src/server.ts",
-    "typeorm": "ts-node-dev ./node_modules/typeorm/cli.js"
+    "dev:server": "tsnd --transpile-only --debounce --exit-child --inspect --respawn src/server.ts",
+    "typeorm": "tsnd --transpile-only ./node_modules/typeorm/cli.js"
   },
   "dependencies": {
     "@types/jsonwebtoken": "^8.5.0",
