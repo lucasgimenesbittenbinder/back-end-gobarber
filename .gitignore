@@ -1,2 +1,4 @@
 node_modules
 report.*.json
+tmp/*
+!tmp/.gitkeep
